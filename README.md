@@ -14,4 +14,6 @@ Code dependencies are: SciPy, NumPy, Pandas, XGBoost(0.90), SciKit-Learn, Seabor
     * xgboost.py - Fits Extreme Gradient Boosting classifiers & computes all performance metrics for internal validation for dataset.
     * otheralgos.py - Fits seven classifiers, computes some performance metrics for internal validation, & plots Receiver Operator Curves, for each dataset.
     * extval.py - For select datasets, this code computes all performance metrics for external validation of Extreme Gradient Boosting classifiers at different classification thresholds.
+    * FourFeatures.py - Extreme Gradient Boosting classifiers on the four features dataset with Instantial Variation adjustments.
+    * FourteenFeatures.py - Extreme Gradient Boosting classifiers on the fourteen features dataset with Instantial Variation adjustments.
     * rawdata.zip - Raw input datasets (zipped due to size constraints).
